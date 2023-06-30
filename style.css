@@ -20,7 +20,7 @@ ul {
     background-color: #dddddd;
 }
 li {
-    flaot: left;
+    float: left;
 }
 li a {
     display: block;
