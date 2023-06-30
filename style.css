@@ -20,7 +20,7 @@ ul {
     background-color: #dddddd;
 }
 li {
-    display: inline;
+    flaot: left;
 }
 li a {
     display: block;
@@ -33,7 +33,7 @@ li a {
 li:last-child{
     border-right: none;
 }
-li a:hover {
+li a:hover:not(active) {
     background-color: #111;
 }
 .active {
