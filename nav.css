@@ -19,7 +19,7 @@ li a {
     text-decoration: none;
     border-right: 1px solid #bbb;
 }
-li a:hover:not(active) {
+li a:hover:not(active), .dropbtn {
     background-color: #111;
 }
 .active {
