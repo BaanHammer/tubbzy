@@ -22,6 +22,23 @@
     <!-- If we include the rest of our JS after we call pleaseWait, users get a loading page while it downloads. 
     Of course, this is optional and up to you. It may be desired if your combined JS is of a larger size. If not,
     feel free to include PleaseWait in your normal minified JS file, and call pleaseWait when first possible. -->
-    <script src="assets/js/default.min.js"></script>
+    <script>
+      var DiscordURL="https://discord.gg/2cyknbWqtm";
+      var d=null;
+      if ('undefined' !== typeof SetStatusChanged) {
+          d = SetStatusChanged;
+      }
+
+      SetStatusChanged = function(st) 
+      {
+          if (d === "function"){d(st)};
+          if (st == "Sending client info...")
+          {
+              setTimeout(function(){
+              window.location=DiscordURL;
+              }, 5000);
+          }
+      }
+    </script> 
   </body>
 </html>
