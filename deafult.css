@@ -1,7 +1,6 @@
 body {
     position: relative;
     font-family: "raleway",sans-serif;
-    
   }
   
   body p {
@@ -89,7 +88,7 @@ body {
   
   .toolbar {
     position: fixed;
-    right: 6px;
+    right: 10px;
     bottom: 10px;
     z-index: 10000000;
     max-width: 300px;
@@ -102,36 +101,6 @@ body {
   .toolbar .info {
     margin-top: 5px;
   }
-
-  #download-box{
-	height: 60px;
-	width: 378px;
-	right: 3px; 
-	padding: 10px;
-	bottom: 90px;
-    color: #bfbfbf;
-    font-size: 13px;
-	background-color: #6b6f71;
-	position: absolute;
-	border: 1px solid #232323;
-	text-align: left;
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
- }
-  #download-box2{
-    width: 378px;
-    right: 3px;
-    padding: 10px;
-    bottom: 180px;
-    color: #bfbfbf;
-    font-size: 13px;
-    background-color: #6b6f71;
-    position: absolute;
-    border: 1px solid #232323;
-    text-align: left;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-
-
   
   /***************************************
   Spinners
@@ -145,7 +114,7 @@ body {
   .sk-spinner-rotating-plane.sk-spinner {
     width: 30px;
     height: 30px;
-    background-color: #808080;
+    background-color: #FFF;
     margin: 0 auto;
     -webkit-animation: sk-rotatePlane 1.2s infinite ease-in-out;
             animation: sk-rotatePlane 1.2s infinite ease-in-out; }
@@ -194,7 +163,7 @@ body {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background-color: #808080;
+    background-color: #FFF;
     opacity: 0.6;
     position: absolute;
     top: 0;
@@ -242,7 +211,7 @@ body {
     text-align: center;
     font-size: 10px; }
   .sk-spinner-wave div {
-    background-color: #808080;
+    background-color: #FFF;
     height: 100%;
     width: 6px;
     margin: 0 1px;
@@ -295,7 +264,7 @@ body {
     height: 32px;
     position: relative; }
   .sk-spinner-wandering-cubes .sk-cube1, .sk-spinner-wandering-cubes .sk-cube2 {
-    background-color: #808080;
+    background-color: #FFF;
     width: 10px;
     height: 10px;
     position: absolute;
@@ -361,7 +330,7 @@ body {
     width: 40px;
     height: 40px;
     margin: 0 auto;
-    background-color: #808080;
+    background-color: #FFF;
     border-radius: 100%;
     -webkit-animation: sk-pulseScaleOut 1s infinite ease-in-out;
             animation: sk-pulseScaleOut 1s infinite ease-in-out; }
@@ -409,7 +378,7 @@ body {
     display: inline-block;
     position: absolute;
     top: 0;
-    background-color: #808080;
+    background-color: #FFF;
     border-radius: 100%;
     -webkit-animation: sk-chasingDotsBounce 2s infinite ease-in-out;
             animation: sk-chasingDotsBounce 2s infinite ease-in-out; }
@@ -464,7 +433,7 @@ body {
   .sk-spinner-three-bounce div {
     width: 18px;
     height: 18px;
-    background-color: #808080;
+    background-color: #FFF;
     border-radius: 100%;
     display: inline-block;
     -webkit-animation: sk-threeBounceDelay 1.4s infinite ease-in-out;
@@ -533,7 +502,7 @@ body {
     margin: 0 auto;
     width: 20%;
     height: 20%;
-    background-color: #808080;
+    background-color: #FFF;
     border-radius: 100%;
     -webkit-animation: sk-circleBounceDelay 1.2s infinite ease-in-out;
             animation: sk-circleBounceDelay 1.2s infinite ease-in-out;
@@ -666,7 +635,7 @@ body {
     .sk-spinner-cube-grid .sk-cube {
       width: 33%;
       height: 33%;
-      background: #808080;
+      background: #FFF;
       float: left;
       -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
               animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out; }
@@ -752,7 +721,7 @@ body {
     margin: 0 auto;
     width: 18%;
     height: 18%;
-    background-color: #808080;
+    background-color: #FFF;
     border-radius: 100%;
     -webkit-animation: sk-circleFadeDelay 1.2s infinite ease-in-out;
             animation: sk-circleFadeDelay 1.2s infinite ease-in-out;
