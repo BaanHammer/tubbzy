@@ -1,6 +1,7 @@
 /* line 17, ../src/please-wait.scss */
 body.pg-loading {
     overflow: hidden;
+    background-color: #ffffff;
   }
   
   /* line 21, ../src/please-wait.scss */
