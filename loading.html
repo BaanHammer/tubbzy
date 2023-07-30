@@ -22,8 +22,7 @@
         var words = ["Want a change of clothes? Change them at the clothes shop!",
         "The best way to make money? Print it! Grow it! Make it!",
         "Need a gun? Buy one from the gun shop!",
-        "Want a career change? Get a new job at the town hall (or the alleyways)!,
-        "Happy Person" ],
+        "Want a career change? Get a new job at the town hall (or the alleyways)!"],
         i = 0;
         setInterval(function(){ $('#words').fadeOut(function(){
             $(this).html(words[(i = (i + 1) % words.length)]).fadeIn();
