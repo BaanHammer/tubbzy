@@ -13,13 +13,17 @@
     <div class="row-outer">
       <div class="container">
         <div class="animated-heading">
-          <h1>Hi i'm a <span id="words">Ui / UX Design</span></h1>
+          <h1>TIP:  <span id="words">You can change your clothes at the clothes shop!</span></h1>
         </div>
       </div>
     </div>
     <script type="text/javascript">
       (function () {
-        var words = ["Ui / UX Design","Photographer","Developer","Youtube","Happy Person" ],
+        var words = ["You can change your clothes at the clothes shop!",
+        "Photographer",
+        "Developer",
+        "Youtube",
+        "Happy Person" ],
         i = 0;
         setInterval(function(){ $('#words').fadeOut(function(){
             $(this).html(words[(i = (i + 1) % words.length)]).fadeIn();
