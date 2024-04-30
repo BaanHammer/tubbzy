@@ -21,8 +21,8 @@ body {
 .navigation-menu ul li {
   display: inline-block;
   margin: 0 10px;
-  transition: transform 0.5s cubic-bezier(0.2, 0.8, 0.2, 1); /* Adjust cubic-bezier for smoother animation */
-  animation: slideIn 2s forwards, popOut 0.5s ease-in-out; /* Adjust animation timing */
+  transition: transform 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+  animation: slideIn 2s forwards, rotateIn 1s forwards, popOut 0.5s ease-in-out;
   opacity: 0;
 }
 
@@ -56,12 +56,21 @@ body {
 
 @keyframes slideIn {
   from {
-    transform: translateY(-100%);
+    transform: translateY(-200%) rotateX(-90deg);
     opacity: 0;
   }
   to {
-    transform: translateY(0);
+    transform: translateY(0) rotateX(0);
     opacity: 1;
+  }
+}
+
+@keyframes rotateIn {
+  from {
+    transform: rotateY(180deg);
+  }
+  to {
+    transform: rotateY(0);
   }
 }
 
