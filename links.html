@@ -1,32 +1,76 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel = "stylesheet" href = "nav.css">
-        <script src="https://kit.fontawesome.com/70e37dd006.js" crossorigin="anonymous"></script>
-        <title>Tubbzy Links</title>
-        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
-        <meta name = "author" content = "Tubbzy (Gregory Walker)">
-    </head>
-    <body>
-        <p>Test</p>
-        <ul>
-            <li><a class = "active" href = "https://tubbzy.xyz">Home</a></li>
-            <li class = "dropdown">
-                <a href = "javascript:void(0)" class = "dropbtn">Links</a>
-                <div class = "dropdown-content">
-                    <a href = "https://steamcommunity.com/id/OSTubbzy/" target = "_blank">Steam</a>
-                    <a href = "https://discord.gg/9dbhFdWaPH" target = "_blank">Discord</a>
-                    <a href = "http://lustrixnetworks.com" target = "_blank">Lustix Networks</a>
-                </div>
-            </li>
-            <li><a href = "https://discord.gg/9dbhFdWaPH" target = "_blank">Discord</a></li>
-            <li><a href = "about.asp">About</a></li>
-        </ul>
-        <div>
-            <h1>My Links<h1>
-                <a href = "https://steamcommunity.com/id/OSTubbzy/" target = "_blank">Steam</a>
-                <a href = "https://discord.gg/9dbhFdWaPH" target = "_blank">Discord</a>
-                <a href = "http://lustrixnetworks.com" target = "_blank">Lustrix Networks</a>
-        </div>
-    </body>
+<head>
+<style>
+body {margin:0;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+<div style="padding:20px;margin-top:30px;background-color:#1abc9c;height:1500px;">
+  <h1>Fixed Top Navigation Bar</h1>
+  <h2>Scroll this page to see the effect</h2>
+  <h2>The navigation bar will stay at the top of the page while scrolling</h2>
+
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+</div>
+
+</body>
 </html>
