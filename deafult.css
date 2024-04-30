@@ -64,21 +64,3 @@ body {
     opacity: 1;
   }
 }
-
-@keyframes rotateIn {
-  from {
-    transform: rotateY(180deg);
-  }
-  to {
-    transform: rotateY(0);
-  }
-}
-
-@keyframes popOut {
-  from {
-    transform: scale(0.5);
-  }
-  to {
-    transform: scale(1);
-  }
-}
