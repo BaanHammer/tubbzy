@@ -12,6 +12,11 @@ h1 {
 
 }
 
+.navbar {
+  position: fixed;
+  top: 0;
+}
+
 .navbar ul {
   list-style-type: none;
   background-color: rgb(56, 56, 56);
