@@ -21,8 +21,8 @@ body {
   .navigation-menu ul li {
     display: inline-block;
     margin: 0 10px;
-    transition: transform 0.3s ease;
-    animation: slideIn 2s forwards, popOut 0.3s ease;
+    transition: transform 0.5s ease;
+    animation: slideIn 3s forwards, popOut 1s ease;
     opacity: 0;
   }
   
