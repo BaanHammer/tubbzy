@@ -6,37 +6,6 @@ main{
   margin-left: 20px;
   margin-right: 20px;
 }
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    position: fixed;
-    overflow: hidden;
-    background-color: #333;
-    top: 0;
-    width: 100%;
-  }
-  
-  li {
-    float: left;
-  }
-  
-   li a /*.dropbtn */{ 
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover /*.dropdown:hover .dropbtn */{
-    background-color: red;
-  }
-
-  li.active {
-    background-color: #04AA6D;
-  }
   
 h1 {
   text-align: center;
