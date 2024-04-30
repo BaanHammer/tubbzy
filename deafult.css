@@ -21,17 +21,17 @@ body {
 .navigation-menu ul li {
   display: inline-block;
   margin: 0 10px;
-  transition: transform 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
-  animation: slideIn 2s forwards, rotateIn 1s forwards, popOut 0.5s ease-in-out;
+  transition: transform 0.5s cubic-bezier(0.2, 0.8, 0.2, 1); /* Adjust cubic-bezier for smoother animation */
+  animation: slideIn 2s forwards, popOut 0.5s ease-in-out; /* Adjust animation timing */
   opacity: 0;
 }
 
 .navigation-menu ul li a {
   text-decoration: none;
   color: #fff;
-  font-size: 1.2em;
-  padding: 10px 20px;
-  border-radius: 5px;
+  font-size: 1.5em; /* Increase font size */
+  padding: 15px 30px; /* Increase padding */
+  border-radius: 10px; /* Add border radius for rounded corners */
 }
 
 .navigation-menu ul li:hover {
@@ -56,11 +56,11 @@ body {
 
 @keyframes slideIn {
   from {
-    transform: translateY(-200%) rotateX(-90deg);
+    transform: translateY(-100%);
     opacity: 0;
   }
   to {
-    transform: translateY(0) rotateX(0);
+    transform: translateY(0);
     opacity: 1;
   }
 }
