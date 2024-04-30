@@ -28,12 +28,31 @@ body {
   
   .navigation-menu ul li a {
     text-decoration: none;
-    color: #333;
+    color: #fff; /* Make text color white */
     font-size: 1.2em;
+    padding: 10px 20px; /* Add padding for better visibility */
+    border-radius: 5px; /* Add border radius for rounded corners */
   }
   
   .navigation-menu ul li:hover {
     transform: scale(1.1);
+  }
+  
+  /* Different background colors for each li */
+  .navigation-menu ul li:nth-child(1) a {
+    background-color: #007bff; /* Blue */
+  }
+  
+  .navigation-menu ul li:nth-child(2) a {
+    background-color: #28a745; /* Green */
+  }
+  
+  .navigation-menu ul li:nth-child(3) a {
+    background-color: #dc3545; /* Red */
+  }
+  
+  .navigation-menu ul li:nth-child(4) a {
+    background-color: #ffc107; /* Yellow */
   }
   
   @keyframes slideIn {
