@@ -24,6 +24,15 @@ h1 {
   width: 100%;
 }
 
+.navbar li{
+  float: left;
+}
+
+.navbar li img {
+  height: 40px; /* Adjust height as needed */
+  margin-top: 5px; /* Adjust vertical alignment as needed */
+}
+
 .navbar a{
   color: white;
   text-decoration: none;
@@ -34,8 +43,4 @@ h1 {
 
 .navbar a:hover{
   background-color: rgb(132, 132, 132);
-}
-
-.navbar li{
-  float: left;
 }
