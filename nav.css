@@ -22,26 +22,26 @@ h1 {
   position: fixed;
   top: 0;
   width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .navbar li{
-  float: left;
+  margin: 0 10px;
 }
 
-.navbar li img {
-  height: 30px; /* Adjust height as needed */
-  margin-top: 5px; /* Adjust vertical alignment as needed */
-}
+/* .navbar li img {
+  height: 30px; 
+  margin-top: 5px; 
+} */
 
 .navbar a{
   color: white;
   text-decoration: none;
   padding: 15px;
-  margin-left: 10px;
-  margin-right: 10px;
-  display: inline-block;
   text-align: center;
-  vertical-align: middle;
 }
 
 .navbar a:hover{
